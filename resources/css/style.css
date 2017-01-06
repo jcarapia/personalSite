@@ -236,6 +236,17 @@ header {
 /* About Section */
 /* ----------------------------- */
 
+.section-about h2{
+	margin-bottom: 10px;
+}
+
+.section-about h2:after{
+	margin-top: 20px;
+}
+
+.quote-author {
+	text-align: center;
+}
 
 
 
