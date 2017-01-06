@@ -248,5 +248,21 @@ header {
 	text-align: center;
 }
 
+/* ----------------------------- */
+/* Fav Pics Section */
+/* ----------------------------- */
 
+.my-pics li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.fav-pic {
+	width: 100%;
+}
+
+.fav-pic img {
+	width: 100%;
+}
 
