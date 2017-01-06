@@ -252,6 +252,15 @@ header {
 /* Fav Pics Section */
 /* ----------------------------- */
 
+.my-pics {
+	padding: 0px;
+}
+
+.my-pics ul {
+	width: 100%;
+	list-style: none;
+}
+
 .my-pics li {
 	display: block;
 	float: left;
@@ -260,6 +269,7 @@ header {
 
 .fav-pic {
 	width: 100%;
+	margin: 0px;
 }
 
 .fav-pic img {
