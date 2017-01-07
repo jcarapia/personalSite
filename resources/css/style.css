@@ -300,3 +300,15 @@ header {
 	text-align: center;
 }
 
+.col-vr {
+	width: 90%;
+}
+
+#a {
+	background-color: red;
+}
+
+#b {
+	background-color: blue
+}
+
