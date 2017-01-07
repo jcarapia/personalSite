@@ -175,7 +175,7 @@ h2:after {
 	content: " ";
 	width: 100px;
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 h3 {
@@ -294,5 +294,9 @@ header {
 
 .section-projects {
 	background-color: #f4f4f4;
+}
+
+.projects-subtitle {
+	text-align: center;
 }
 
