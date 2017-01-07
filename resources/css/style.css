@@ -6,6 +6,7 @@
 /* 
 orange: #e67e22; 
 green: #2ecc71;
+light grey for background: #f4f4f4;
 */
 
 * {
@@ -285,5 +286,13 @@ header {
 .fav-pic img:hover {
 	transform: scale(1.20);
 	opacity: 1;
+}
+
+/* ----------------------------- */
+/* Fav Pics Section */
+/* ----------------------------- */
+
+.section-projects {
+	background-color: #f4f4f4;
 }
 
