@@ -291,7 +291,7 @@ header {
 }
 
 /* ----------------------------- */
-/* Fav Pics Section */
+/* Peojects Section */
 /* ----------------------------- */
 
 .section-projects {
@@ -366,3 +366,26 @@ header {
 	border: 2px solid blue;
 }
 
+/* ----------------------------- */
+/* Footer Section */
+/* ----------------------------- */
+
+footer {
+	background-color: #333;
+}
+
+.social-media {
+	list-style: none;
+	text-align: center;
+	margin: 30px;
+	font-size: 150%;
+}
+
+.social-media li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.social-media li a {
+	border-bottom: 0;
+}
