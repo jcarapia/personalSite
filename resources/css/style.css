@@ -7,6 +7,7 @@
 orange: #e67e22; 
 green: #2ecc71;
 light grey for background: #f4f4f4;
+belize hole: #2980b9;
 */
 
 * {
@@ -51,6 +52,7 @@ section {
 .box {
 	padding: 1%; 
 }
+
 
 /* --- Paragraphs --- */
 .long-copy {
@@ -296,7 +298,16 @@ header {
 	background-color: #f4f4f4;
 }
 
+.section-projects i {
+	color: #2980b9;
+}
+
 .projects-subtitle {
+	text-align: center;
+}
+
+.image-box {
+	padding: 1%;
 	text-align: center;
 }
 
@@ -309,7 +320,6 @@ header {
 }
 
 .project-description div {
-	border: 2px solid #e67e22;
 	display: inline-block;
 	border-radius: 50%;
 	height: 40px;
