@@ -300,19 +300,29 @@ header {
 	text-align: center;
 }
 
-.col-vr {
+.project-img{
 	width: 90%;
 }
 
-.fishTails {
-	width: 90%;
+.project-description {
+	margin-bottom: 20px;
+}
+
+.project-description div {
+	border: 2px solid #e67e22;
+	display: inline-block;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	float: left;
 }
 
 #a {
-	background-color: red;
+	border: 2px solid red;
 }
 
 #b {
-	background-color: blue
+	border: 2px solid blue;
 }
 
