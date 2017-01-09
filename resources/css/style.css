@@ -389,3 +389,16 @@ footer {
 .social-media li a {
 	border-bottom: 0;
 }
+
+.ion-social-facebook:hover {
+	color: #3b5998;
+}
+
+.ion-social-linkedin:hover {
+	color: #0077B5;
+}
+
+.ion-social-github:hover {
+	color: #6e5494;
+}
+
