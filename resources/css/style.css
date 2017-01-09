@@ -358,14 +358,6 @@ header {
 	color: #000;
 }
 
-#a {
-	border: 2px solid red;
-}
-
-#b {
-	border: 2px solid blue;
-}
-
 /* ----------------------------- */
 /* Footer Section */
 /* ----------------------------- */
@@ -401,4 +393,5 @@ footer {
 .ion-social-github:hover {
 	color: #6e5494;
 }
+
 
