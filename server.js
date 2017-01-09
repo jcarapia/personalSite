@@ -12,6 +12,10 @@ app.get('/', function(req, res) {
 	res.sendFile(path.join(__dirname + '/index.html'));
 });
 
+app.get('/resume', function(req, res) {
+	res.sendFile(path.join(__dirname + '/resources/files/jorgeCarapiaResume.pdf'));
+})
+
 app.listen(PORT, () => {
 	console.log('The magic happens on port: ' + PORT);
 });
