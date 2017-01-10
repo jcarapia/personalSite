@@ -7,7 +7,7 @@ var app = express();
 // Environment Variables
 var PORT = process.env.PORT || 3000;
 var api_key = process.env.api_key;
-var email = process.env.email_address;
+var my_email = process.env.email_address;
 var domain = 'sandbox614028c0d12b4e978dcdeca5945a9a18.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
  
@@ -34,7 +34,7 @@ app.post('/sendMail', function(req, res) {
 	if(antispam === '10') {
 		var data = {
 			from: name + ' <' +email+ '>', 
-			to: email,
+			to: my_email,
 			subject: 'New Message from JorgeCarapia.com',
 			text: message
 		};
@@ -43,8 +43,9 @@ app.post('/sendMail', function(req, res) {
     	console.log(body);
  		});
 
+		res.redirect('/');
 	};
-	res.redirect('/');
+	
 });
 
 app.listen(PORT, () => {
