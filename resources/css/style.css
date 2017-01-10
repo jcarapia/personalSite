@@ -107,7 +107,8 @@ a:active {
 
 /* --- Buttons --- */
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type="submit"] {
 	display: inline-block;
 	padding: 10px 30px;
 	font-weight: 300;
@@ -117,7 +118,8 @@ a:active {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type="submit"] {
 	background-color: #e67e22;
 	border: 1px solid #e67e22;
 	color: #fff;
@@ -131,12 +133,14 @@ a:active {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type="submit"] {
 	background-color: #e67e22;
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type="submit"] {
 	border: 1px solid #e67e22;
 }
 
@@ -353,10 +357,33 @@ header {
 	border-bottom: 2px solid #e67e22;
 }
 
-
 .github-invite i {
 	color: #000;
 }
+
+/* ----------------------------- */
+/* Contact Section */
+/* ----------------------------- */
+
+.contact-form {
+	width: 60%;
+	margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	border-radius: 5px;
+	width: 100%;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+textarea {
+	height: 100px;
+}
+
+*:focus {outline: none}
 
 /* ----------------------------- */
 /* Footer Section */
