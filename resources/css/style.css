@@ -3,7 +3,7 @@
 /* Basic Setup */
 /* ----------------------------- */
 
-/* 
+/* Colors
 orange: #e67e22; 
 green: #2ecc71;
 light grey for background: #f4f4f4;
@@ -114,7 +114,7 @@ input[type="submit"] {
 	font-weight: 300;
 	text-decoration: none;
 	border-radius: 200px;
-	transition: background-color 0.2s, border 0.2s, color 0.2s;
+	transition: background-color 0.4s, border 0.4s, color 0.4s;
 }
 
 .btn-full:link,
@@ -134,14 +134,15 @@ input[type="submit"] {
 
 .btn:hover,
 .btn:active,
-input[type="submit"] {
-	background-color: #e67e22;
+input[type="submit"]:hover,
+input[type="submit"]:active  {
+	background-color: #cf6d17;
 }
 
 .btn-full:hover,
 .btn-full:active,
 input[type="submit"] {
-	border: 1px solid #e67e22;
+	border: 1px solid #cf6d17;
 }
 
 .btn-ghost:hover,
