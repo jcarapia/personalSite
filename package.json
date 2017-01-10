@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/jcarapia/personalSite#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "express-php": "0.0.1",
-    "php-express": "0.0.3"
+    "mailgun-js": "^0.8.0"
   }
 }
