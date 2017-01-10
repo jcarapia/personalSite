@@ -9,7 +9,7 @@ app.use('/resources', express.static(__dirname +  '/resources'));
 app.use('/outside-resources', express.static(__dirname +  '/outside-resources'));
 
 app.get('/', function(req, res) {
-	res.sendFile(path.join(__dirname + '/index.html'));
+	res.sendFile(path.join(__dirname + '/index.php'));
 });
 
 app.get('/resume', function(req, res) {

@@ -21,6 +21,11 @@
 
 </head>
 <body>
+
+	<?php
+	echo "My first PHP script!";
+	?>
+
 	<header>
 		<nav>
 			<div class="row">
@@ -226,7 +231,7 @@
 		</div>
 
 		<div class="row">
-			<form method="post" action="#" class="contact-form">
+			<form method="post" action="mailer.php" class="contact-form">
 				
 				<div class="row">
 					<div class="col span-1-of-3">
