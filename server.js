@@ -19,7 +19,7 @@ app.use('/outside-resources', express.static(__dirname +  '/outside-resources'))
 app.all(/.+\.php$/, phpExpress.router);
 
 app.get('/', function(req, res) {
-	res.sendFile(path.join(__dirname + '/index.html'));
+	res.render(path.join(__dirname + '/index.php'));
 });
 
 app.get('/resume', function(req, res) {
