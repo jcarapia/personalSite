@@ -339,25 +339,26 @@ header {
 	float: left;
 }
 
-.github-invite {
+.invite {
 	text-align: center;
+	margin-bottom: 8px;
 }
 
-.github-invite a:link,
-.github-invite a:visited {
+.invite a:link,
+.invite a:visited {
 	color: #555;
 	text-decoration: none;
 	border-bottom: 2px solid transparent;
 	transition: color .2s, border .2s;
 }
 
-.github-invite a:hover,
-.github-invite a:active {
+.invite a:hover,
+.invite a:active {
 	color: #e67e22;
 	border-bottom: 2px solid #e67e22;
 }
 
-.github-invite i {
+.invite i {
 	color: #000;
 }
 
