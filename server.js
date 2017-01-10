@@ -42,7 +42,9 @@ app.post('/sendMail', function(req, res) {
 		mailgun.messages().send(data, function (error, body) {
     	console.log(body);
  		});
+
 	};
+	res.redirect('/');
 });
 
 app.listen(PORT, () => {
