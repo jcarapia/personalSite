@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/jcarapia/personalSite#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "express-php": "0.0.1",
+    "php-express": "0.0.3"
   }
 }
