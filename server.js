@@ -51,5 +51,3 @@ app.post('/sendMail', function(req, res) {
 app.listen(PORT, () => {
 	console.log('The magic happens on port: ' + PORT);
 });
-
-
