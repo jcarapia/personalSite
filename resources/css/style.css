@@ -18,6 +18,7 @@ belize hole: #2980b9;
 
 html, 
 body {
+	width: 100%;
 	background-color: #fff;
 	color: #555;
 	font-family: 'Lato', 'Arial', sans-serif;
