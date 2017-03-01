@@ -25,23 +25,23 @@
 		<nav>
 			<div class="row">
 				<ul class="main-nav">
-					<li><a href="#">About</a></li>
-					<li><a href="#">Projects</a></li>
+					<li><a href="#" class="js--scroll-to-about">About</a></li>
+					<li><a href="#" class="js--scroll-to-projects">Projects</a></li>
 					<!-- <li><a href="#">Passions</a></li>
 					<li><a href="#">Adventures</a></li> -->
-					<li><a href="#">Contact</a></li>
+					<li><a href="#" class="js--scroll-to-contact">Contact</a></li>
 				</ul>	
 			</div>
 		</nav>
 
 		<div class="hero-text-box">
 			<h1>Jorge Carapia <br>Software Engineer, Adventurer</h1>
-			<a href="#" class="btn btn-full">Contact Me</a>
-			<a href="#" class="btn btn-ghost">More Info</a>
+			<a href="#" class="btn btn-full js--scroll-to-contact">Contact Me</a>
+			<a href="#" class="btn btn-ghost js--scroll-to-about">More Info</a>
 		</div>
 	</header>
 
-	<section class="section-about">
+	<section class="section-about js--section-about">
 	
 		<h2 class="quote">
 			Go confidently in the direction of your dreams.<br> Live the life you've imagined.
@@ -132,7 +132,7 @@
 
 	</section>
 
-	<section class="section-projects">
+	<section class="section-projects js--section-projects">
 
 		<div class="row">
 			<h2>Projects</h2>
@@ -254,7 +254,7 @@
 
 	</section>
 
-	<section class="section-contact">
+	<section class="section-contact js--section-contact">
 		
 		<div class="row">
 			<h2>Contact Jorge Carapia</h2>
@@ -324,7 +324,10 @@
 		</div>
 
 	</footer>
-
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- <script type="text/javascript" src="vendors/js/jquery.waypoints.min.js"></script> -->
+	<script type="text/javascript" src="resources/js/scripts.js"></script>
 </body>
 </html>
 
