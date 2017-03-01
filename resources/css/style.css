@@ -84,7 +84,10 @@ section {
 	vertical-align: middle;
 	margin-top: -5px;
 	margin-right: 10px;
+}
 
+.construction {
+	color: red;
 }
 
 /* --- Links --- */
@@ -196,7 +199,7 @@ h3 {
 /* ----------------------------- */
 
 header {
-	background-image: url("img/header-img.jpg");
+	background-image: url("img/header2.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
