@@ -210,11 +210,16 @@ header {
 	position: absolute;
 	width: 100%;
 	top: 50%;
-	left: 2%;
+	left: 0;
 }
 
 .hero-text-box h1 {
 	background-color: rgba(0,0,0,.7);
+	padding-left: 2%;
+}
+
+.hero-text-box a {
+	margin-left: 2%;
 }
 
 /* Main Navigation */
